@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>php</title>
+</head>
+<body>
+<p>
+    public function index() {
+        // Lógica para mostrar una vista principal
+    }
+    public function create() {
+        // Lógica para mostrar un formulario de creación
+    }
+    public function store(Request $request) {
+        // Lógica para almacenar un nuevo recurso en la base de datos
+    }
+    public function show($id) {
+        // Lógica para mostrar un recurso específico
+    }
+    public function edit($id) {
+        // Lógica para mostrar un formulario de edición
+    }
+    public function update(Request $request, $id) {
+        // Lógica para actualizar un recurso en la base de datos
+    }
+    public function destroy($id) {
+        // Lógica para eliminar un recurso de la base de datos
+    }
+</p>
+</body>
+</html>
